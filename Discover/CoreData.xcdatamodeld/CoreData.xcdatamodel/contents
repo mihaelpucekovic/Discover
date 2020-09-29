@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="NewsCD" representedClassName="NewsCD" syncable="YES" codeGenerationType="class">
+        <attribute name="caption" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="gallery" optional="YES" attributeType="String"/>
+        <attribute name="highlightedGradientColorFirst" optional="YES" attributeType="String"/>
+        <attribute name="highlightedGradientColorSecond" optional="YES" attributeType="String"/>
+        <attribute name="highlightedIcon" optional="YES" attributeType="String"/>
+        <attribute name="highlightedText" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary"/>
+        <attribute name="imageURL" optional="YES" attributeType="String"/>
+        <attribute name="isHighlighted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isPromoted" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="shareLink" optional="YES" attributeType="String"/>
+        <attribute name="timerFinish" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="NewsCD" positionX="-63" positionY="-18" width="128" height="298"/>
+    </elements>
+</model>
